@@ -102,15 +102,15 @@ The solution provides a simple Microsoft PowerBI visualization of the solution. 
 
 
 # Deploying the automation
- To deploy the solution, follow the instructions provided in the [deployment guidance](https://github.com/Azure/Azure-Health-Extension/blob/master/deployment.md)
+ 1. To deploy the solution, follow the instructions provided in the [deployment guidance](https://github.com/Azure/Azure-Health-Extension/blob/master/deployment.md)
 
-[![](./images/deploy.png)](./deployment.md) (with IaaS extention)
 
-Frequently asked questions can be found in the [FAQ](https://github.com/RajeevRangappa/Azure-Health-Extension/blob/master/faq.md) guidance.
 
-[Threat Model](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A comprehensive threat model is provided in tm7 format for use with the Microsoft Threat Modeling Tool, showing the components of the solution, the data flows between them, and the trust boundaries. The model can help customers understand the points of potential risk in the system infrastructure when developing Machine Learning Studio components or other modifications.
+2. Frequently asked questions can be found in the [FAQ](https://github.com/RajeevRangappa/Azure-Health-Extension/blob/master/faq.md) guidance.
 
-[Customer implementation matrix](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A Microsoft Excel workbook lists the relevant HITRUST requirements and explains how Microsoft and the customer are responsible for meeting each one.
+3. [Threat Model](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A comprehensive threat model is provided in tm7 format for use with the [Microsoft Threat Modeling Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49168), showing the components of the solution, the data flows between them, and the trust boundaries. The model can help customers understand the points of potential risk in the system infrastructure when developing Machine Learning Studio components or other modifications.
+
+4. [Customer implementation matrix](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A Microsoft Excel workbook lists the relevant HITRUST requirements and explains how Microsoft and the customer are responsible for meeting each one.
 
 
 # Disclaimer
