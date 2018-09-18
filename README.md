@@ -1,11 +1,11 @@
 ﻿
 
-# Azure HIPAA/HITRUST Health Data and AI - Extension (PREVIEW)
+# Azure Security and Complaince Blueprint - HIPAA/HITRUST Health Data and AI - IaaS Extension 
 
 
 
 
-The HIPAA/HITRUST Health Data and AI - Extension provides customers the ability to deploy the health blueprint to include a hybrid IaaS deployment to understand how Azure Security Center and other 
+The HIPAA/HITRUST Health Data and AI - IaaS Extension provides customers the ability to deploy the health blueprint to include a hybrid IaaS deployment to understand how Azure Security Center and other 
 security technologies such as end point host protection would work in the Healthcare solution.
 This solution will help expose the effort to migrate an on-premise SQL based solution to Azure, and to implement a Privileged Access Workstation (PAW) to securely manage all cloud based services and solutions.
 
@@ -96,30 +96,21 @@ The script upon completing will move 10,000 new patient records that have been l
 
 
  View revised data in PowerBi (PowerBI dashboard will be updated)
-The solution provides a simple Microsoft PowerBI visualization of the solution. Microsoft PowerBI is required to open the sample report located (Using PowerBi free edition works for this demo, but will not allow for reports to be shared) [Blueprint/Deployment/Reports](https://github.com/Azure/Azure-Health-Extension) 
+The solution provides a simple Microsoft PowerBI visualization of the solution. Microsoft PowerBI is required to open the sample report located (Using PowerBi free edition works for this demo, but will not allow for reports to be shared) [Blueprint/Deployment/Reports](https://github.com/RajeevRangappa/Azure-Health-Extension/tree/master/Reports) 
 
 
 
 
-
-
-
-
-# Deploying the solution 
-
-
-[Solution Overview](./readme.md)
-
+# Deploying the automation
+ To deploy the solution, follow the instructions provided in the [deployment guidance](https://github.com/Azure/Azure-Health-Extension/blob/master/deployment.md)
 
 [![](./images/deploy.png)](./deployment.md) (with IaaS extention)
 
-[FAQ](./faq.md)
+Frequently asked questions can be found in the [FAQ](https://github.com/RajeevRangappa/Azure-Health-Extension/blob/master/faq.md) guidance.
 
-[files/Azure_Security_and_Compliance_Blueprint_HIPAAHITRUST_Health_Data_AI-ThreatModel_with_IaaS_Extention.tm7](https://github.com/Azure/Azure-Health-Extension)
+[Threat Model](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A comprehensive threat model is provided in tm7 format for use with the Microsoft Threat Modeling Tool, showing the components of the solution, the data flows between them, and the trust boundaries. The model can help customers understand the points of potential risk in the system infrastructure when developing Machine Learning Studio components or other modifications.
 
-[files/HITRUST_Health_Data_and_AI_extention_Customer_Responsibility_Matrix_CRM_v9.xlsx](https://github.com/Azure/Azure-Health-Extension)
-
-
+[Customer implementation matrix](https://github.com/Azure/Azure-Health-Extension/tree/master/Files) A Microsoft Excel workbook lists the relevant HITRUST requirements and explains how Microsoft and the customer are responsible for meeting each one.
 
 
 # Disclaimer
