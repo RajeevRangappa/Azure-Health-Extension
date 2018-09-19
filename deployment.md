@@ -20,7 +20,7 @@ installed.
 
 ## Deploy the solution
 
-You need to copy, or [clone](https://help.github.com/articles/cloning-a-repository/) the repository. Once you have a copy of the  Blueprint automation, you can deploy the solution by using the  **deploy.ps1** PowerShell script that deploys or manages the  Blueprint.
+You need to copy, or [clone](https://help.github.com/articles/cloning-a-repository/) the repository. Once you have a copy of the  Blueprint automation, you can deploy the solution by using the  **deploy.ps1** PowerShell script in ADMIN mode that deploys or manages the  Blueprint.
 
 
 1.  Once the repository has been copied, or cloned change your working directory to
