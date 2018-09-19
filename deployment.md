@@ -22,6 +22,11 @@ installed.
 
 You need to copy, or [clone](https://help.github.com/articles/cloning-a-repository/) the repository. Once you have a copy of the  Blueprint automation, you can deploy the solution by using the  **deploy.ps1** PowerShell script in ADMIN mode that deploys or manages the  Blueprint.
 
+## Required administrator roles
+
+The person installing the blueprint must be in the Global Administrator role in the AAD. The installing account must also be an Azure subscription administrator for the subscription being used. If the person doing the install is not in both of these roles, the install will fail.
+
+Further, the install is not designed to work with MSDN subscriptions due to the tight integration with AAD. A standard Azure account must be used. If needed, get a [free trial](https://azure.microsoft.com/en-us/free/?WT.mc_id=ms-docs-dastarr) with credit to spend for installing the blueprint solution and running its demos.
 
 1.  Once the repository has been copied, or cloned change your working directory to
     **Deployment**:
