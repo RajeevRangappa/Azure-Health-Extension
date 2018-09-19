@@ -102,7 +102,7 @@ The solution provides a simple Microsoft PowerBI visualization of the solution. 
 
 
 # Deploying the automation
- 1. To deploy the solution, follow the instructions provided in the [deployment guidance](https://github.com/Azure/Azure-Health-Extension/blob/master/deployment.md).
+ 1. To deploy the solution, follow the instructions provided in the [deployment guidance](https://github.com/RajeevRangappa/Azure-Health-Extension/blob/master/deployment.md).
 
 
 
