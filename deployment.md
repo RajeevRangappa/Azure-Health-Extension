@@ -112,7 +112,14 @@ DeployIaaS.ps1 should be run once the deployment of the solution has been comple
 ```
 This command deploys the IaaS solution for testing purposes.
 
+## Sample Example
 
+.\deploy.ps1 -deploymentPrefix <prefix> [Any max 5 length prefix e.g. demo1, test99, etc]
+             -tenantId <tenant-id> [“XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX”] 
+             -tenantDomain <tenant-domain> [“XXXXXXXX.com”]
+             -subscriptionId <subscription-id> [XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX]
+             -globalAdminUsername <username> [Pass provided Username, if any]
+             -deploymentPassword <password> [Pass any random strong password that you want to set for AAD user accounts that will be created during deployment.]
 
 
 ## Parameters
